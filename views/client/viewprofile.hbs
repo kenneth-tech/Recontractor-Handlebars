@@ -1,0 +1,198 @@
+<div>
+   <div class="container">
+        <input type="checkbox" name="" id="check" />
+  
+        <div class="logo-container">
+          <img src="/assets/images/logo2.png" alt="" srcset="" />
+        </div>
+  
+        <div class="nav-btn">
+          <div class="nav-links">
+            <ul>
+              <li class="nav-link" style="--i: 0.6s">
+                <a href="#">Contractor List</i></a>
+              </li>
+              <li class="nav-link" style="--i: 0.85s">
+                <a href="#">Search Design</a>
+                    <li class="dropdown-link">
+                    </li>
+              </li>
+              </li>
+              <li class="nav-link" style="--i: 1.35s">
+                <a href="#">About us</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="log-sign" style="--i: 1.8s">
+          </div>
+        </div>
+  
+        <div class="hamburger-menu-container">
+          <div class="hamburger-menu">
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form action="">
+          <div class="profile">
+            <img
+              src="/assets/images/undraw_male_avatar_323b (1).svg"
+              alt=""
+              
+            />
+          </div>
+            <div  class="info">
+              <label for="Name">Mark Kenneth R. Rillamas</label>
+              <label for="Address">Ayusan Norte, Vigan City</label>
+              <label for="Email">Markkennethrillamas@gmail.com</label>
+
+
+            </div>
+            <div class="button">
+                <input type="button" value="Chat" onclick="openForm()" class="btnedit">
+  
+  
+              </div>
+        </form>
+
+        </div>
+
+          <hr>
+          <div class="main" id="myportfolio">
+      
+            
+            <h2 style="font-family: 'Paytone One', sans-serif; color: white;">MY PROJECTS</h2>
+            
+            <div class="btn-pick" id="myBtnContainer">
+              <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+              <button class="btn" onclick="filterSelection('nature')"> Bungalow Type</button>
+              <button class="btn" onclick="filterSelection('cars')"> Two Storey Type</button>
+              <button class="btn" onclick="filterSelection('people')"> Modern Type</button>
+            </div>
+            
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+              <div class="column nature">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                  <div class="edit">
+                    <input  onclick="document.getElementById('id01').style.display='block'" class="bt-edit" type="button" value="View Details" />
+                    </div>
+                </div>
+              </div>
+              <div class="column nature">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                <div class="edit">
+                  <input class="bt-edit" type="button" value="View Details" />
+                </div>
+      
+                </div>
+              </div>
+              <div class="column nature">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                <div class="edit">
+                  <input class="bt-edit" type="button" value="View Details" />
+                </div>
+      
+                </div>
+              </div>
+              
+              <div class="column cars">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                  <div class="edit">
+                    <input class="bt-edit" type="button" value="View Details" />
+                  </div>
+      
+                </div>
+              </div>
+              <div class="column cars">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                <div class="edit">
+                  <input class="bt-edit" type="button" value="View Details" />
+                  </div>
+                </div>
+              </div>
+              <div class="column cars">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                <div class="edit">
+                  <input class="bt-edit" type="button" value="View Details" />
+                  </div>
+                </div>
+              </div>
+            
+              <div class="column people">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                  <div class="edit">
+                    <input class="bt-edit" type="button" value="View Details" />
+                  </div>
+                </div>
+              </div>
+              <div class="column people">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                <div class="edit">
+                  <input class="bt-edit" type="button" value="View Details" />
+                  </div>
+                </div>
+              </div>
+              <div class="column people">
+                <div class="content">
+                  <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png"alt="Mountains" class="i" style="width:100%">
+                <div class="edit">
+                  <input class="bt-edit" type="button" value="View Details" />
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div id="id01" class="w3-modal w3-animate-opacity" style="overflow: hidden;">
+        <div class="w3-modal-content w3-card-4" style="border-radius: 10px;">
+          <header class="w3-container " style="border-top-left-radius: 10px; border-top-right-radius: 10px;"> 
+            <span onclick="document.getElementById('id01').style.display='none'" 
+            class="w3-button w3-large w3-display-topright" style="border-top-right-radius: 10px;">&times;</span>
+            <h2 style="color: white;  font-family: 'Paytone One', sans-serif;
+            ">House Details</h2>
+          </header>
+          <div class="w3-container">
+            <div class="grid-container " style="   padding: 10px;
+            display: grid; align-items: center; justify-content: center; grid-template-columns: auto auto;">
+              <div class="grid-item" style="margin: 10px;">            <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png" alt="" srcset="" style=" border-radius: 10px; margin-top: 2%; height: 30vh; width: 100%;">
+              </div>
+              <div class="grid-item">            <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png" alt="" srcset="" style=" border-radius: 10px; margin-top: 2%; height: 30vh; width: 100%;">
+              </div>
+              <div class="grid-item" style="margin: 10px;" >            <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png" alt="" srcset="" style=" border-radius: 10px; margin-top: 2%; height: 30vh; width: 100%;">
+              </div>  
+              <div class="grid-item">            <img src="/assets/images/beautiful-bungalow-house-design-ideas-18.png" alt="" srcset="" style=" border-radius: 10px; margin-top: 2%; height: 30vh; width: 100%;">
+              </div> 
+            </div>
+          </div>
+          <div class="details" style="display: flex; align-items: center; justify-content: center; flex-direction: row;">
+            <label for="">Price Range</label><br>
+            <h3>P2,000,000</h3><br>
+            <label for="" style= " font-size: 16px; padding: 10px;">BedRooms</label><br>
+            <h3>3-4 BedRooms</h3>
+
+          </div>
+          <footer class="w3-container ">
+          </footer>
+        </div>
+      </div>
+
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Send Message</h1>
+      
+          <textarea style="font-family: sans-serif;" placeholder="Type message.." name="msg" required></textarea>
+      
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+</div>

@@ -1,0 +1,116 @@
+<div>
+  <div id='loader'></div>
+
+<div class='container'>
+  <input type='checkbox' name='' id='check' />
+
+  <img src='/assets/images/logo2.png' alt='' srcset='' />
+
+  <div class='nav-btn'>
+    <div class='nav-links'>
+      <ul></ul>
+    </div>
+
+    <div class='log-sign' style='--i: 1.8s'>
+      <a href='' class='btn transparent'>Log in</a>
+      <a href='' class='btn transparent'>About Us</a>
+    </div>
+  </div>
+
+  <div class='hamburger-menu-container'>
+    <div class='hamburger-menu'>
+      <div></div>
+    </div>
+  </div>
+</div>
+<div style='display: none' id='myDiv'>
+  <div class='Home'>
+    <div class='home-picture'>
+      <img
+        src='/assets/images/undraw_under_construction_46pa.svg'
+        alt=''
+        srcset=''
+      />
+    </div>
+    <div class='saying'>
+      <h1>Recontractor</h1>
+      <h4>Helping you Find The Best Contractor!</h4>
+
+      <input
+        onclick="document.getElementById('id01').style.display='block'"
+        type='button'
+        value='Lets Find'
+      />
+    </div>
+  </div>
+  <div id='id01' class='w3-modal'>
+    <div class='w3-modal-content w3-animate-zoom' style='border-radius: 10px'>
+      <header
+        class='w3-container'
+        style='border-top-left-radius: 10px; border-top-right-radius: 10px'
+      >
+        <span
+          style='color: white; border-top-right-radius: 10px'
+          onclick="document.getElementById('id01').style.display='none'"
+          class='w3-button w3-display-topright'
+        >&times;</span>
+        <h2 style="font-family: 'Paytone One', sans-serif; color: white">
+          SIGN AS
+        </h2>
+      </header>
+      <div
+        class='w3-container'
+        style='display: flex; justify-content: center; align-items: center'
+      >
+        <input
+          onClick="window.location.href='http://localhost:8082/cregister'"
+          class='btn transparent'
+          type='button'
+          value='Contractor'
+          style="
+                background-color: #2b4f60;
+                font-family: 'Paytone One', sans-serif;
+                color: white;
+                padding: 5px;
+                margin: 10px;
+                border-radius: 10px;
+                height: 90px;
+                width: 200px;
+                border: none;
+                font-size: 20px;
+              "
+        />
+        <input
+          onClick="window.location.href='http://localhost:8082/register'"
+          class='btn transparent'
+          type='button'
+          value='Client'
+          style="
+                background-color: #2b4f60;
+                font-family: 'Paytone One', sans-serif;
+                color: white;
+                padding: 5px;
+                margin: 30px;
+                border-radius: 10px;
+                height: 90px;
+                width: 200px;
+                border: none;
+                font-size: 20px;
+              "
+        />
+      </div>
+    </div>
+  </div>
+<div>
+  <footer>
+    <div class='footers'>
+      <div class='description'>
+        <h2>Recontractor</h2>
+        <h4>
+          Copyright © 2021 Recontractor. Designed By: Mark Kenneth Rillamas
+        </h4>
+      </div>
+    </div>
+  </footer>
+</div>
+</div>
